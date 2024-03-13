@@ -1,0 +1,11 @@
+<!-- <p>profile works!</p> -->
+<div class="row">
+    <div class="col-6 offset-3">
+        <h2>Role: {{userList?.role}}</h2>
+        <img [src]="userList?.avatar" alt="">
+        <h3>Name :{{userList?.name}}</h3>
+        <h4>Email:{{userList?.email}}</h4>
+        <p>CreationAt :{{userList?.creationAt | date}}</p>
+        <p>UpdatedAt :{{userList?.updatedAt | date}}</p>
+    </div>
+</div>
